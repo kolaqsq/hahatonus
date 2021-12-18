@@ -1,0 +1,49 @@
+@font-face {
+	font-family: "Moscow Sans Regular";
+	font-style: normal;
+	font-weight: 300;
+	/* Браузер сначала попробует найти шрифт локально */
+	src: local("Roboto"),
+		/* Если не получилось, загрузит woff2 */
+	url("../fonts/MoscowSans-Light.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "Moscow Sans Regular";
+	font-style: normal;
+	font-weight: 400;
+	/* Браузер сначала попробует найти шрифт локально */
+	src: local("Roboto"),
+		/* Если не получилось, загрузит woff2 */
+	url("../fonts/MoscowSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Moscow Sans Regular";
+	font-style: normal;
+	font-weight: 500;
+	/* Браузер сначала попробует найти шрифт локально */
+	src: local("Roboto"),
+		/* Если не получилось, загрузит woff2 */
+	url("../fonts/MoscowSans-Medium.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "Moscow Sans Regular";
+	font-style: normal;
+	font-weight: 700;
+	/* Браузер сначала попробует найти шрифт локально */
+	src: local("Roboto"),
+		/* Если не получилось, загрузит woff2 */
+	url("../fonts/MoscowSans-Bold.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "Moscow Sans Regular";
+	font-style: normal;
+	font-weight: 800;
+	/* Браузер сначала попробует найти шрифт локально */
+	src: local("Roboto"),
+		/* Если не получилось, загрузит woff2 */
+	url("../fonts/MoscowSans-Extrabold.otf") format("opentype");
+}

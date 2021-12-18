@@ -1,13 +1,25 @@
 // Color palette
 
-$black: #2C292D;
-$justBlack: #514B53;
-$pink: #ff6188;
-$yellow: #ffd866;
-$grey: #cac6c2;
-$white: #fdf9f3;
-$snowWhite: #ffffff;
+$cyan: #42E3B4;
+$green: #A0E720;
+$yellow: #FAED00;
+$blue: #1164C0;
+$aqua: #00ADEE;
+$indigo: #202C80;
+$lightBlack: #333F48;
+$blueGrey: #EEF3FF;
+$black: #000000;
+$white: #FFFFFF;
+$darkWhite: #E9E9E9;
+
+
+$gradient1: linear-gradient(to right, $cyan , $green);
+$gradient2: linear-gradient(to right, $yellow , $green);
+$gradient3: linear-gradient(to right, $aqua , $cyan);
+$gradient4: linear-gradient(to right, $aqua , $indigo);
 
 // Pixel sizer value
 
-$siteMaxWidth: 1200px;
+$siteMinWidth: 1400px;
+
+$siteMinHeight: calc(100vh - 70px);
