@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/Widget.Material3.CardView.Filled"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/text_time_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="через 1ч 53мин"
+                app:layout_constraintBottom_toTopOf="@id/text_time_in"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="parent" />
+
+            <TextView
+                android:id="@+id/text_time_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:text="19:54"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toTopOf="@id/text_route"
+                app:layout_constraintEnd_toStartOf="@+id/text_time_count_min"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/text_time_count" />
+
+            <TextView
+                android:id="@+id/text_time_count_min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="28 мин"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="2dp"
+                app:layout_constraintBottom_toBottomOf="@id/text_time_in"
+                app:layout_constraintEnd_toStartOf="@id/text_time_out"
+                app:layout_constraintStart_toEndOf="@id/text_time_in" />
+
+            <TextView
+                android:id="@+id/text_time_out"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="19:27"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toBottomOf="@id/text_time_in"
+                app:layout_constraintStart_toEndOf="@id/text_time_count_min" />
+
+            <TextView
+                android:id="@+id/text_route"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Клин - Москва (Ленинградский вокзал)"
+                android:layout_marginTop="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/text_time_in" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

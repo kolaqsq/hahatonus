@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BottomNavigation">
+        <item name="itemIconTint">@color/md_theme_light_onBackground</item>
+        <item name="itemTextColor">@color/md_theme_light_onBackground</item>
+        <item name="paddingStart">0dp</item>
+        <item name="paddingEnd">0dp</item>
+    </style>
+</resources>

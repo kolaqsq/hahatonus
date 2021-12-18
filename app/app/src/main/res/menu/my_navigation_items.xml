@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_1"
+        android:title="@string/menu_nav_name_1"
+        android:icon="@drawable/ic_map"
+        />
+    <item android:id="@+id/action_2"
+        android:title="@string/menu_nav_name_2"
+        android:icon="@drawable/ic_clock"
+        />
+</menu>
