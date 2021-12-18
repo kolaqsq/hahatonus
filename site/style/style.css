@@ -36,7 +36,7 @@ h1 {
 h2 {
   font-weight: 800;
   font-size: 58px;
-  color: #1164C0;
+  color: #0090d9;
 }
 
 h3 {
@@ -128,6 +128,9 @@ h5 {
 }
 .container_block_1 .container_adaptive {
   justify-content: space-around;
+}
+.container_block_1 .container_adaptive .container_htext {
+  justify-content: center;
 }
 .container_block_1 .container_adaptive .container_span {
   justify-content: center;
