@@ -3,4 +3,13 @@
     <string name="menu_nav_name_1">Схема</string>
     <string name="menu_nav_name_2">Расписание</string>
     <string name="map_full">map_full</string>
+    <string name="text_time_count">через 1ч 53мин</string>
+    <string name="text_time_in">19:54</string>
+    <string name="text_time_count_min">28 мин</string>
+    <string name="text_time_out">19:27</string>
+    <string name="text_route">Клин - Москва (Ленинградский вокзал)</string>
+    <string name="text_in_1">Откуда:</string>
+    <string name="edit_text_in">причал 1</string>
+    <string name="text_out_1">Куда:</string>
+    <string name="edit_text_out">причал 4</string>
 </resources>

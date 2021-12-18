@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.wetro.databinding.FrameScheduleBinding
 
-class FragmentSchedule: Fragment() {
+class FragmentSchedule : Fragment() {
     private lateinit var binding: FrameScheduleBinding
 
     var adapter: Adapter = Adapter()

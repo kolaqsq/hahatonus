@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.wetro.databinding.FrameSchemeBinding
 
-class FragmentScheme: Fragment() {
+class FragmentScheme : Fragment() {
     private lateinit var binding: FrameSchemeBinding
 
     override fun onCreateView(

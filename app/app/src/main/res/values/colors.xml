@@ -19,6 +19,7 @@
     <color name="md_theme_light_onBackground">#191C1E</color>
     <color name="md_theme_light_surface">#FBFCFF</color>
     <color name="md_theme_light_onSurface">#191C1E</color>
+<!--  карточка  -->
     <color name="md_theme_light_surfaceVariant">#DDE3EA</color>
     <color name="md_theme_light_onSurfaceVariant">#41484D</color>
     <color name="md_theme_light_outline">#71787E</color>

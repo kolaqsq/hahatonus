@@ -35,15 +35,15 @@ class MainActivity : AppCompatActivity() {
         position = 0
 
         bindingMain.bottomNavigation.setOnItemSelectedListener { item ->
-            when(item.title) {
+            when (item.title) {
                 "Схема" -> {
-                    if (position != 0){
+                    if (position != 0) {
                         changeFragment(0)
                     } else Log.d("pos", "Fragment 0 Already work")
                     true
                 }
                 "Расписание" -> {
-                    if (position != 1){
+                    if (position != 1) {
                         changeFragment(1)
                     } else Log.d("pos", "Fragment 1 Already work")
                     true
@@ -58,8 +58,8 @@ class MainActivity : AppCompatActivity() {
         scheduleFragment.adapter.notifyDataSetChanged()
     }
 
-    private fun changeFragment(pos: Int){
-        when (pos){
+    private fun changeFragment(pos: Int) {
+        when (pos) {
             0 -> {
                 val transactionInitialization = supportFragmentManager
                     .beginTransaction()
